@@ -5,7 +5,7 @@ import org.aeonbits.owner.Config;
 
 @Config.Sources({
         "classpath:${env}.properties",
-        "classpath:samsungs22.properties"
+        "classpath:samsungS22.properties"
 })
 
 

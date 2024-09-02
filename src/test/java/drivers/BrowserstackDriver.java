@@ -4,6 +4,7 @@ import com.codeborne.selenide.WebDriverProvider;
 import config.AuthConfig;
 import config.BrowserStackConfig;
 import org.aeonbits.owner.ConfigFactory;
+import org.apache.http.io.SessionOutputBuffer;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
@@ -39,6 +40,7 @@ public class BrowserstackDriver implements WebDriverProvider {
             throw new RuntimeException(e);
         }
     }
+
 
     @Nonnull
     @Override
